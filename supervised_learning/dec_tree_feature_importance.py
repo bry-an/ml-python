@@ -18,3 +18,6 @@ def plot_feature_importances_cancer(model):
     plt.xlabel("Feature Importance")
     plt.ylabel("Feature")
     plt.ylim(-1, n_features)
+    plt.show()
+
+plot_feature_importances_cancer(tree)
