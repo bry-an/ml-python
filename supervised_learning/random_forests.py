@@ -19,5 +19,5 @@ mglearn.plots.plot_2d_separator(forest, X_train, fill=True, ax=axes[-1, -1], alp
 axes[-1, -1].set_title("Random Forest")
 mglearn.discrete_scatter(X_train[:, 0], X_train[:, 1], y_train)
 
-# plt.show()
+plt.show()
 
